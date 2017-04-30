@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Monarch migration</title>
+    <link rel="stylesheet" href="app.css">
+    
+    <script src="jquery.min.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtq0GsmY85-c0C35HRkcRrXDI-p83TJ6I&callback=initMap">
+    </script>
+  </head>
+<body>
+    <div>Monarch Butterfly migration over the years</div>
+    <label for="year"> Select a year:</label>
+    <select id="year">
+    </select>
+    <div id="map"></div>
+    <script src="app.js"></script>
+    <script type="text/javascript">
+        $( document ).ready(function() {
+            initialize();
+        });
+    </script>
+</body>
+</html>
