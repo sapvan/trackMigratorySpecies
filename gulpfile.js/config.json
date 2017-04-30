@@ -61,6 +61,12 @@
       "extensions": ["jpg", "png", "svg", "gif"]
     },
 
+    "data": {
+      "src": "data",
+      "dest": "data",
+      "extensions": ["json"]
+    },
+
     "fonts": {
       "src": "fonts",
       "dest": "fonts",
